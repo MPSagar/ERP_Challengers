@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNGScripts.HomepageModule">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
+          <include name="TC6_verify_admin_is_able_to_access_custmers_to_page"/>
+          <include name="TC5_verify_admin_is_able_to_access_stock_items_page"/>
+        </methods>
+      </class> <!-- TestNGScripts.HomepageModule -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
